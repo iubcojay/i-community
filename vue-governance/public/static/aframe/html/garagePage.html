@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../modules/aframe.js"></script>
+    <script src="../modules/aframe-orbit-controls/aframe-orbit-controls.js"></script>
+    <script src="../modules/aframe-my-mirror/aframe-my-mirror.js"></script>
+
+
+    <script>
+        AFRAME.registerComponent("camera-orbit-controls-loader", {
+            init() {
+                this.el.setAttribute('orbit-controls',window.orbitControlsOption)
+            }
+        });
+
+        AFRAME.registerComponent("model-loader", {
+            init() {
+                this.el.setAttribute('scale',window.modelScale)
+            }
+        });
+    </script>
+</head>
+<body>
+
+
+<a-scene id="scene" vr-mode-ui="enabled: false" background="color: rgb(24, 49, 85)">
+    <a-assets>
+        <a-asset-item id="gltf" src=""></a-asset-item>
+    </a-assets>
+
+
+    <a-entity id="floor" position="0 0 0">
+        <a-gltf-model id="model" src="#gltf" position="0 0 0" model-loader></a-gltf-model>
+        <a-entity position="0 -0.001 0">
+            <a-plane rotation="-90 0 0" position="0 0 0" width="500" height="500" color="rgb(24, 49, 85)" material="transparent:true;opacity:0.85;roughness:0.8"></a-plane>
+            <a-entity rotation="-90 0 0"  position="0 -0.1 0" aframe-my-mirror></a-entity>
+        </a-entity>
+    </a-entity>
+
+    <a-entity camera look-controls="enabled: false" camera-orbit-controls-loader></a-entity>
+    <a-entity light = "type: ambient; intensity: 0.5;"></a-entity>
+    <a-entity light="type: spot; angle: 60;target: #model; intensity: 1;" position="500 500 500"></a-entity>
+    <a-entity light="type: spot; angle: 60;target: #model; intensity: 1;" position="-500 500 -500"></a-entity>
+
+</a-scene>
+</body>
+
+<script>
+    document.querySelector('#gltf').setAttribute('src',window.modelUrl)
+
+</script>
+
+</html>

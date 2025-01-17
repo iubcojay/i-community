@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+
+<body>
+    <div class="outer_container">
+        <div class="controller_group">
+            <div>油罐车1：</div>
+            <div class="controller_button_running controller_button active" data-vehicle-id="1" data-action="active">行驶
+            </div>
+            <div class="controller_button_stop controller_button" data-vehicle-id="1" data-action="stop">停止</div>
+            <div class="controller_button_accident controller_button" data-vehicle-id="1" data-action="broke">故障</div>
+        </div>
+        <div class="controller_group">
+            <div>油罐车2：</div>
+            <div class="controller_button_running controller_button active" data-vehicle-id="2" data-action="active">行驶
+            </div>
+            <div class="controller_button_stop controller_button" data-vehicle-id="2" data-action="stop">停止</div>
+            <div class="controller_button_accident controller_button" data-vehicle-id="2" data-action="broke">故障</div>
+        </div>
+
+    </div>
+
+    <script>
+        function main() {
+            addEventListeners()
+        }
+
+        function addEventListeners() {
+            const buttonList = Array.from(document.querySelectorAll(".controller_button"))
+            buttonList.forEach(button => {
+                button.onclick = async (event) => {
+                    const id = button.dataset.vehicleId;
+                    const action = button.dataset.action;
+                    if (!button.classList.contains("active")) {
+                        Array.from(button.parentNode.querySelectorAll(".controller_button")).forEach(button => {
+                            button.classList.remove("active");
+                        })
+                        button.classList.add("active");
+                        let map = {
+
+                        }
+                        const url = `http://localhost:8001/factory/vehicle/${action}/${id}`
+                        window.axios.get(url);
+                    }
+                }
+            })
+        }
+
+        main()
+
+    </script>
+
+    <style>
+        .outer_container {
+            width: fit-content;
+            height: fit-content;
+        }
+
+        .controller_group {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        .controller_button {
+            font-size: 14px;
+            width: 80px;
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+
+            border-radius: 5px;
+            transition: 0.2s transform;
+            margin: 0 5px;
+        }
+
+        .controller_button_running {
+            border: 1px solid #67C23A;
+            color: #67C23A;
+        }
+
+        .controller_button_running.active {
+            color: white;
+            font-weight: 700;
+            background: #67C23A;
+        }
+
+        .controller_button_stop {
+            border: 1px solid #E6A23C;
+            color: #E6A23C;
+        }
+
+        .controller_button_stop.active {
+            color: white;
+            font-weight: 700;
+            background: #E6A23C;
+        }
+
+        .controller_button_accident {
+            border: 1px solid #F56C6C;
+            color: #F56C6C;
+        }
+
+        .controller_button_accident.active {
+            color: white;
+            font-weight: 700;
+            background: #F56C6C;
+        }
+
+
+
+        .controller_button:not(.active):hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+    </style>
+</body>
+
+</html>

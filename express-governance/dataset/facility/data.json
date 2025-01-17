@@ -1,0 +1,477 @@
+[
+    {
+        "id": "12d7a8a5-4e46-4594-b717-fa2b14197c72",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/facility/fire_hydrant/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.03,
+            0.03,
+            0.03
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "16aa6a34-65c2-4fde-867a-a5c91e40d3c1",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/garage/car/sport.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            2,
+            2,
+            2
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "47a8eea1-cb7a-46d9-b409-f1683481bd48",
+        "type": 2,
+        "position": [
+            117.0424211,
+            36.6628005
+        ],
+        "status": 1,
+        "picture": "/img/facility/cap.png",
+        "model": "/model/facility/manhole_cover_scan/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "43c88cfe-25ac-4ee1-81aa-57fd966a861d",
+        "type": 4,
+        "position": [
+            117.043498,
+            36.6651881
+        ],
+        "status": 1,
+        "picture": "/img/facility/trashcan.png",
+        "model": "/model/facility/trash_can/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            6,
+            6,
+            6
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "f662c7c5-5195-4272-a96a-54d36a2bf74b",
+        "type": 3,
+        "position": [
+            117.0437609,
+            36.663538
+        ],
+        "status": 1,
+        "picture": "/img/facility/monitor.png",
+        "model": "/model/facility/security_camera/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.01,
+            0.01,
+            0.01
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "7fe0d145-60d7-47cb-b5b0-a23c971214b9",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/facility/fire_hydrant/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.03,
+            0.03,
+            0.03
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "724049d6-8734-49b7-b68c-aad9d7c858d9",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/garage/car/sport.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            2,
+            2,
+            2
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "f5ebba18-ffcb-450b-a9eb-35ac27447a28",
+        "type": 2,
+        "position": [
+            117.0424211,
+            36.6628005
+        ],
+        "status": 1,
+        "picture": "/img/facility/cap.png",
+        "model": "/model/facility/manhole_cover_scan/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "fa3bb350-7ec2-4c6b-8895-a6c867d6e6af",
+        "type": 4,
+        "position": [
+            117.043498,
+            36.6651881
+        ],
+        "status": 1,
+        "picture": "/img/facility/trashcan.png",
+        "model": "/model/facility/trash_can/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            6,
+            6,
+            6
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "deb39a92-603d-42e1-aab1-2d4b407e90db",
+        "type": 3,
+        "position": [
+            117.0437609,
+            36.663538
+        ],
+        "status": 1,
+        "picture": "/img/facility/monitor.png",
+        "model": "/model/facility/security_camera/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.01,
+            0.01,
+            0.01
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "b78c0739-0dd3-4d5d-ab18-90f0dd0c75dc",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/facility/fire_hydrant/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.03,
+            0.03,
+            0.03
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "4eb0deb9-4a71-4753-9d5d-06d1bbcfbcb3",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/garage/car/sport.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            2,
+            2,
+            2
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "924754d1-e4c5-4895-b2e4-2a6de09f516a",
+        "type": 2,
+        "position": [
+            117.0424211,
+            36.6628005
+        ],
+        "status": 1,
+        "picture": "/img/facility/cap.png",
+        "model": "/model/facility/manhole_cover_scan/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "b7909b26-41c1-4619-99e9-c02b5fdc741c",
+        "type": 4,
+        "position": [
+            117.043498,
+            36.6651881
+        ],
+        "status": 1,
+        "picture": "/img/facility/trashcan.png",
+        "model": "/model/facility/trash_can/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            6,
+            6,
+            6
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "46bfe3bc-60cc-482f-a89c-1c23f021e56d",
+        "type": 3,
+        "position": [
+            117.0437609,
+            36.663538
+        ],
+        "status": 1,
+        "picture": "/img/facility/monitor.png",
+        "model": "/model/facility/security_camera/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.01,
+            0.01,
+            0.01
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "f7561d73-4f8b-4203-9df4-dcd237ab8b99",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/facility/fire_hydrant/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.03,
+            0.03,
+            0.03
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "d40c409f-f235-4091-9f86-ef41b88cdf66",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/garage/car/sport.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            2,
+            2,
+            2
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "2633c745-69b4-47c0-b076-edbd3ebc675b",
+        "type": 2,
+        "position": [
+            117.0424211,
+            36.6628005
+        ],
+        "status": 1,
+        "picture": "/img/facility/cap.png",
+        "model": "/model/facility/manhole_cover_scan/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "0103cf53-6691-4d09-a4ee-cf1ccea8c4d1",
+        "type": 4,
+        "position": [
+            117.043498,
+            36.6651881
+        ],
+        "status": 1,
+        "picture": "/img/facility/trashcan.png",
+        "model": "/model/facility/trash_can/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            6,
+            6,
+            6
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "15ff7f30-180c-418c-a50b-c95c339c7c40",
+        "type": 3,
+        "position": [
+            117.0437609,
+            36.663538
+        ],
+        "status": 1,
+        "picture": "/img/facility/monitor.png",
+        "model": "/model/facility/security_camera/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.01,
+            0.01,
+            0.01
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "941b8f37-50a7-4677-8ce4-36bfec4d88cf",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/facility/fire_hydrant/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.03,
+            0.03,
+            0.03
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "816ac7cf-a7b6-4d06-b713-42df9a865b3a",
+        "type": 1,
+        "position": [
+            117.0441534,
+            36.6635452
+        ],
+        "status": 1,
+        "picture": "/img/facility/hydrant.png",
+        "model": "/model/garage/car/sport.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            2,
+            2,
+            2
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "98c816ed-f07f-4fc9-a7e0-294f08cb60a8",
+        "type": 2,
+        "position": [
+            117.0424211,
+            36.6628005
+        ],
+        "status": 1,
+        "picture": "/img/facility/cap.png",
+        "model": "/model/facility/manhole_cover_scan/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "1c1e1943-953e-4ec5-8844-c7d5c84e4c65",
+        "type": 4,
+        "position": [
+            117.043498,
+            36.6651881
+        ],
+        "status": 1,
+        "picture": "/img/facility/trashcan.png",
+        "model": "/model/facility/trash_can/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            6,
+            6,
+            6
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    },
+    {
+        "id": "e22dafc5-6943-4c68-8392-3e2b1bb98f87",
+        "type": 3,
+        "position": [
+            117.0437609,
+            36.663538
+        ],
+        "status": 1,
+        "picture": "/img/facility/monitor.png",
+        "model": "/model/facility/security_camera/scene.gltf",
+        "modelFormat": "gltf",
+        "modelScale": [
+            0.01,
+            0.01,
+            0.01
+        ],
+        "createTime": "2023-06-24T08:22:47.964Z",
+        "updatedTime": "2023-06-24T08:22:47.964Z"
+    }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>interiorApartment</title>
+    <script src="../modules/aframe.js"></script>
+    <script src="../modules/aframe-orbit-controls/aframe-orbit-controls.js"></script>
+
+
+    <script>
+        AFRAME.registerComponent("camera-orbit-controls-loader", {
+            init() {
+                this.el.setAttribute('orbit-controls',window.orbitControlsOption)
+            }
+        });
+    </script>
+</head>
+<body>
+<a-scene id="scene" vr-mode-ui="enabled: false" background="color: rgb(24, 49, 85)" dynamic-asserts-loader>
+    <a-assets>
+        <a-asset-item id="floorGltf" model-loader src=""></a-asset-item>
+    </a-assets>
+
+    <a-entity id="floor" position="0 0 0">
+        <a-gltf-model  src="#floorGltf" position="-1.5 0 -3.5" ></a-gltf-model>
+    </a-entity>
+
+    <a-entity id="camera" camera look-controls="enabled: false" camera-orbit-controls-loader></a-entity>
+
+</a-scene>
+</body>
+
+<script>
+    document.querySelector('#floorGltf').setAttribute('src',window.modelUrl)
+
+</script>
+
+</html>

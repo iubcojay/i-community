@@ -1,0 +1,8 @@
+node_modules/*
+
+# 后台地址配置
+/config/AppConfig.js
+
+.idea
+
+.VSCodeCounter

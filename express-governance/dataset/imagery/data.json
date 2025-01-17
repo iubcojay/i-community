@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name":"济南市卫星影像",
+        "url": "/imagery/jinan_satellite",
+        "thumbnailUrl":"/imagery/thumbnail/jinan_satellite.jpg",
+        "fileExtension": "jpg",
+        "tileType": "TMS",
+        "minimumLevel": 1,
+        "maximumLevel": 16,
+        "rectangle": [
+            116.217278569,
+            36.029282172,
+            117.740033335,
+            37.538265075
+        ],
+        "tilingScheme": "WebMercatorTilingScheme",
+        "initialHeight": 200000,
+        "createTime":"2023-05-26T00:00:00Z",
+        "updateTime":"2023-05-26T00:00:00Z"
+     
+    },
+    {
+        "id": 2,
+        "name":"济南市地图影像",
+        "url": "/imagery/jinan_map",
+        "thumbnailUrl":"/imagery/thumbnail/jinan_map.jpg",
+        "fileExtension": "jpg",
+        "tileType": "TMS",
+        "minimumLevel": 1,
+        "maximumLevel": 16,
+        "rectangle": [
+            116.217278569,
+            36.029282172,
+            117.740033335,
+            37.538265075
+        ],
+        "tilingScheme": "WebMercatorTilingScheme",
+        "initialHeight": 200000,
+        "createTime":"2023-05-26T00:00:00Z",
+        "updateTime":"2023-05-26T00:00:00Z"
+    },
+    {
+        "id": 3,
+        "name":"济南市路网影像",
+        "url": "/imagery/jinan_road",
+        "thumbnailUrl":"/imagery/thumbnail/jinan_road.png",
+        "fileExtension": "png",
+        "tileType": "TMS",
+        "minimumLevel": 1,
+        "maximumLevel": 16,
+        "rectangle": [
+            116.217278569,
+            36.029282172,
+            117.740033335,
+            37.538265075
+        ],
+        "tilingScheme": "WebMercatorTilingScheme",
+        "initialHeight": 200000,
+        "createTime":"2023-05-26T00:00:00Z",
+        "updateTime":"2023-05-26T00:00:00Z"
+    }
+]

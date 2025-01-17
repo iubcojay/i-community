@@ -1,0 +1,695 @@
+{
+  "id": "3434899",
+  "name": "dt",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11372643",
+      "name": "安全",
+      "font_class": "safe",
+      "unicode": "e8ab",
+      "unicode_decimal": 59563
+    },
+    {
+      "icon_id": "18176601",
+      "name": "停止",
+      "font_class": "stop",
+      "unicode": "ea91",
+      "unicode_decimal": 60049
+    },
+    {
+      "icon_id": "9927999",
+      "name": "video",
+      "font_class": "video",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "5387735",
+      "name": "眼睛_隐藏",
+      "font_class": "hidden",
+      "unicode": "eb45",
+      "unicode_decimal": 60229
+    },
+    {
+      "icon_id": "5387736",
+      "name": "眼睛_显示",
+      "font_class": "show",
+      "unicode": "eb46",
+      "unicode_decimal": 60230
+    },
+    {
+      "icon_id": "577362",
+      "name": "时钟",
+      "font_class": "clock",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    },
+    {
+      "icon_id": "11372686",
+      "name": "日历",
+      "font_class": "calendar",
+      "unicode": "e8b4",
+      "unicode_decimal": 59572
+    },
+    {
+      "icon_id": "6756291",
+      "name": "微博",
+      "font_class": "blog",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "7548886",
+      "name": "24gl-newspaper4",
+      "font_class": "news",
+      "unicode": "e8ae",
+      "unicode_decimal": 59566
+    },
+    {
+      "icon_id": "13869432",
+      "name": "平台事故",
+      "font_class": "accident",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "1055340",
+      "name": "comment",
+      "font_class": "comment",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "658044",
+      "name": "解锁",
+      "font_class": "lock",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "20782265",
+      "name": "文件夹",
+      "font_class": "folder",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "21164516",
+      "name": "m-格式化文字",
+      "font_class": "json",
+      "unicode": "e7f8",
+      "unicode_decimal": 59384
+    },
+    {
+      "icon_id": "577348",
+      "name": "留言",
+      "font_class": "talk",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "12001901",
+      "name": "community-line",
+      "font_class": "community",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "18165161",
+      "name": "天平,公平,天平秤",
+      "font_class": "balance",
+      "unicode": "e87a",
+      "unicode_decimal": 59514
+    },
+    {
+      "icon_id": "166645",
+      "name": "图像",
+      "font_class": "image",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "975010",
+      "name": "网络",
+      "font_class": "web",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "4354248",
+      "name": "图表-折线图",
+      "font_class": "line-chart",
+      "unicode": "eb96",
+      "unicode_decimal": 60310
+    },
+    {
+      "icon_id": "5041660",
+      "name": "音频文件",
+      "font_class": "music",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "6246302",
+      "name": "数据库",
+      "font_class": "database",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "19652319",
+      "name": "文本",
+      "font_class": "text",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "6176576",
+      "name": "日志",
+      "font_class": "log",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "23376796",
+      "name": "地理信息",
+      "font_class": "geography",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "19223501",
+      "name": "储存数据数据库",
+      "font_class": "data-admin",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "11641852",
+      "name": "表格",
+      "font_class": "table",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "2076303",
+      "name": " 日历",
+      "font_class": "date",
+      "unicode": "e89e",
+      "unicode_decimal": 59550
+    },
+    {
+      "icon_id": "2423300",
+      "name": "无数据",
+      "font_class": "no-data",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "1305488",
+      "name": "loading",
+      "font_class": "loading",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "6776383",
+      "name": "摄像头_关闭",
+      "font_class": "camera-unlock",
+      "unicode": "eca5",
+      "unicode_decimal": 60581
+    },
+    {
+      "icon_id": "6776384",
+      "name": "摄像头",
+      "font_class": "camera-lock",
+      "unicode": "eca6",
+      "unicode_decimal": 60582
+    },
+    {
+      "icon_id": "20171417",
+      "name": "喇叭",
+      "font_class": "whistle",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "8124852",
+      "name": "灯",
+      "font_class": "light",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "8791338",
+      "name": "手动",
+      "font_class": "hand",
+      "unicode": "e729",
+      "unicode_decimal": 59177
+    },
+    {
+      "icon_id": "20387737",
+      "name": "auto",
+      "font_class": "auto",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "4320367",
+      "name": "报警",
+      "font_class": "alarm-light",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "1727436",
+      "name": "211铃铛-线性",
+      "font_class": "alarm",
+      "unicode": "e8c0",
+      "unicode_decimal": 59584
+    },
+    {
+      "icon_id": "1202",
+      "name": "排序",
+      "font_class": "arrow-down",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8191086",
+      "name": "柱形图",
+      "font_class": "data",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "32292737",
+      "name": "车道闸",
+      "font_class": "lifter",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "1012763",
+      "name": "喵喵速贷",
+      "font_class": "car",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "2672187",
+      "name": "电脑",
+      "font_class": "computer",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "778500",
+      "name": "右箭头",
+      "font_class": "arrow-right-circle",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "1494638",
+      "name": "右箭头",
+      "font_class": "arrow-right",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "34272968",
+      "name": "对钩-圆",
+      "font_class": "tick",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "2076210",
+      "name": "快进",
+      "font_class": "fast-forward",
+      "unicode": "e878",
+      "unicode_decimal": 59512
+    },
+    {
+      "icon_id": "1445049",
+      "name": "parking",
+      "font_class": "park",
+      "unicode": "e836",
+      "unicode_decimal": 59446
+    },
+    {
+      "icon_id": "7275448",
+      "name": "VR (3D)",
+      "font_class": "vr",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "2674474",
+      "name": "播放",
+      "font_class": "play",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "2674483",
+      "name": "暂停",
+      "font_class": "pause",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "2743897",
+      "name": "重新开始",
+      "font_class": "restart",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "21086722",
+      "name": "用户路径",
+      "font_class": "path",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "5961298",
+      "name": "电表",
+      "font_class": "electricity",
+      "unicode": "ec4d",
+      "unicode_decimal": 60493
+    },
+    {
+      "icon_id": "16102277",
+      "name": "水费明细",
+      "font_class": "water",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "2674471",
+      "name": "分享",
+      "font_class": "share",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "18169758",
+      "name": "数据查询,数据库查询",
+      "font_class": "data-search",
+      "unicode": "e93f",
+      "unicode_decimal": 59711
+    },
+    {
+      "icon_id": "5961430",
+      "name": "神经",
+      "font_class": "nerve",
+      "unicode": "ec6f",
+      "unicode_decimal": 60527
+    },
+    {
+      "icon_id": "1546841",
+      "name": "消防栓",
+      "font_class": "hydrant",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "5961309",
+      "name": "井盖",
+      "font_class": "cap",
+      "unicode": "ec55",
+      "unicode_decimal": 60501
+    },
+    {
+      "icon_id": "7587956",
+      "name": "垃圾桶",
+      "font_class": "trash-can",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "6246288",
+      "name": "扳手",
+      "font_class": "fix",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "23405557",
+      "name": "人力资源社会保障领域",
+      "font_class": "manage",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "7577286",
+      "name": "24gl-appsBig",
+      "font_class": "grid",
+      "unicode": "e9b7",
+      "unicode_decimal": 59831
+    },
+    {
+      "icon_id": "4425828",
+      "name": "上拉",
+      "font_class": "up",
+      "unicode": "e797",
+      "unicode_decimal": 59287
+    },
+    {
+      "icon_id": "249352",
+      "name": "工作流程图",
+      "font_class": "progress",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "49851",
+      "name": "放大镜",
+      "font_class": "search",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "24981052",
+      "name": "监控",
+      "font_class": "monitor",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "17937303",
+      "name": "框选1",
+      "font_class": "frame_selection",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "10465903",
+      "name": "gis图层",
+      "font_class": "layers",
+      "unicode": "e7b5",
+      "unicode_decimal": 59317
+    },
+    {
+      "icon_id": "4766685",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    },
+    {
+      "icon_id": "7678891",
+      "name": "关机",
+      "font_class": "shutdown",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "6616997",
+      "name": "关闭",
+      "font_class": "close",
+      "unicode": "eca0",
+      "unicode_decimal": 60576
+    },
+    {
+      "icon_id": "1046065",
+      "name": "单列列表",
+      "font_class": "list",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "11891796",
+      "name": "model",
+      "font_class": "model",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "16020767",
+      "name": "折叠1",
+      "font_class": "fold",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "16020747",
+      "name": "折叠2",
+      "font_class": "expand",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "29232590",
+      "name": "工厂-线",
+      "font_class": "tileset",
+      "unicode": "e81c",
+      "unicode_decimal": 59420
+    },
+    {
+      "icon_id": "2076271",
+      "name": "退出",
+      "font_class": "exit",
+      "unicode": "e892",
+      "unicode_decimal": 59538
+    },
+    {
+      "icon_id": "7594026",
+      "name": "24gl-fullScreenEnter",
+      "font_class": "full-screen",
+      "unicode": "ea68",
+      "unicode_decimal": 60008
+    },
+    {
+      "icon_id": "16287569",
+      "name": "线性晴天",
+      "font_class": "qingtian",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "16287562",
+      "name": "线性特大暴雪",
+      "font_class": "xue",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "16287563",
+      "name": "线性雷阵雨",
+      "font_class": "leizhenyu",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "16287565",
+      "name": "线性大雨",
+      "font_class": "yu",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "16287574",
+      "name": "线性多云",
+      "font_class": "duoyun",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "16287584",
+      "name": "线性阵雨",
+      "font_class": "zhenyu",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "16287586",
+      "name": "线性阴天",
+      "font_class": "yin",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "672036",
+      "name": "下拉",
+      "font_class": "down",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "4766293",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e7ae",
+      "unicode_decimal": 59310
+    },
+    {
+      "icon_id": "1305048",
+      "name": "温度",
+      "font_class": "temperature",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "10164909",
+      "name": "城市",
+      "font_class": "city",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "12306464",
+      "name": "水滴",
+      "font_class": "humidity",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "577402",
+      "name": "向右1",
+      "font_class": "right",
+      "unicode": "e775",
+      "unicode_decimal": 59253
+    },
+    {
+      "icon_id": "577406",
+      "name": "向左1",
+      "font_class": "left",
+      "unicode": "e779",
+      "unicode_decimal": 59257
+    },
+    {
+      "icon_id": "1312011",
+      "name": "转换",
+      "font_class": "change",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "1304893",
+      "name": "邮件",
+      "font_class": "mail",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "2076254",
+      "name": "电话",
+      "font_class": "phone",
+      "unicode": "e88b",
+      "unicode_decimal": 59531
+    },
+    {
+      "icon_id": "2811144",
+      "name": "地址管理",
+      "font_class": "address",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    }
+  ]
+}
