@@ -1,4 +1,4 @@
-import { v1 } from "uuid";
+import {v1} from "uuid";
 import _ from "lodash";
 
 export default class MyEarth {
@@ -24,7 +24,9 @@ export default class MyEarth {
     initEarth() {
         this.earth = new XE.Earth(this.containerId, {
             // 开启动画
-            shouldAnimate: true
+            shouldAnimate: true,
+            // timeline: true,   // 是否显示底部时间轴
+            // animation: true   // 是否显示左下角的动画控件
         });
 
         // 解决报错问题
@@ -128,7 +130,7 @@ export default class MyEarth {
 
     // 将模型放入地球
     pushEntityToEarth(ref, czmObject) {
-        this.earth.sceneTree.root["children"].push({ "ref": ref, "czmObject": czmObject })
+        this.earth.sceneTree.root["children"].push({"ref": ref, "czmObject": czmObject})
         return this.getEarthObjByRef(ref)
     }
 
@@ -316,7 +318,7 @@ export default class MyEarth {
                 screenPosition.push(...pin.winPos);
             }
         });
-        return { pinId, unBindFun };
+        return {pinId, unBindFun};
     }
 
     unbindPosition(option) {

@@ -109,6 +109,7 @@ import FactoryTransportAccidentRecordComponentRR
 import DisputeCommonCheckControllerComponent
     from "@/views/index/community/governance/dispute/common/check/DisputeCommonCheckControllerComponent.vue";
 import ModelInfoControllerComponent from "@/views/index/community/other/model-info/ModelInfoControllerComponent.vue";
+import SchoolSuperviseControllerComponent from "@/views/index/school/supervise/SchoolSuperviseControllerComponent.vue";
 
 Vue.use(VueRouter)
 
@@ -541,13 +542,18 @@ let routes = [
                 path: "/index/school",
                 name: "indexSchool",
                 component: SchoolComponent,
-                redirect: '/index/school/home',
+                redirect: '/index/school/supervise',
                 children: [
                     {
                         path: "/index/school/home",
                         name: "indexSchoolHome",
                         component: SchoolHomeControllerComponent,
-
+                        redirect: '/index/school/supervise',
+                    },
+                    {
+                        path: "/index/school/supervise",
+                        name: "indexSchoolSupervise",
+                        component: SchoolSuperviseControllerComponent,
                     },
 
 

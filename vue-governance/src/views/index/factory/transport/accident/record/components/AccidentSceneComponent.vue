@@ -2,24 +2,24 @@
   <div class="accident_scene_container">
     <div class="transport_outer_container">
       <transport-component
-        v-for="transportInfo of transportInfoList"
-        :key="transportInfo.id"
-        :transport-info="transportInfo"
+          v-for="transportInfo of transportInfoList"
+          :key="transportInfo.id"
+          :transport-info="transportInfo"
       ></transport-component>
     </div>
     <div class="fire_truck_outer_container">
       <fire-truck-component
-        v-for="fireTruck of fireTruckInfoList"
-        :key="fireTruck.id"
-        :fire-truck-info="fireTruck"
-        :accidentPosition="accidentPosition"
+          v-for="fireTruck of fireTruckInfoList"
+          :key="fireTruck.id"
+          :fire-truck-info="fireTruck"
+          :accidentPosition="accidentPosition"
       ></fire-truck-component>
     </div>
     <div class="time_line_container">
       <time-line-component
-        v-if="timelineShow"
-        :startTimeStamp="this.interval[0]"
-        :endTimeStamp="this.interval[1]"
+          v-if="timelineShow"
+          :startTimeStamp="this.interval[0]"
+          :endTimeStamp="this.interval[1]"
       ></time-line-component>
     </div>
   </div>
@@ -29,6 +29,7 @@
 import TransportComponent from "@/views/index/factory/transport/accident/record/components/TransportComponent";
 import FireTruckComponent from "@/views/index/factory/transport/accident/record/components/FireTruckComponent";
 import TimeLineComponent from "@/views/index/factory/transport/accident/record/components/TimeLineComponent";
+
 export default {
   name: "AccidentSceneComponent",
   components: {
@@ -119,7 +120,7 @@ export default {
 
     updateTransportInfo(entity, timestamp) {
       let transportInfo = this.transportInfoList.find(
-        (transport) => transport.id === entity.id
+          (transport) => transport.id === entity.id
       );
       if (!transportInfo) {
         return;
@@ -135,8 +136,8 @@ export default {
         }
         const lastPositionInfo = runningInfo.positions.at(-1);
         if (
-          lastPositionInfo !== undefined &&
-          JSON.stringify(lastPositionInfo.position) ===
+            lastPositionInfo !== undefined &&
+            JSON.stringify(lastPositionInfo.position) ===
             JSON.stringify(entity.position)
         ) {
           // 如果原地没动
@@ -190,7 +191,7 @@ export default {
 
     updateFireTruckInfo(entity, timestamp) {
       let fireTruckInfo = this.fireTruckInfoList.find(
-        (fireTruck) => fireTruck.id === entity.id
+          (fireTruck) => fireTruck.id === entity.id
       );
       if (!fireTruckInfo) {
         return;
@@ -206,8 +207,8 @@ export default {
         }
         const lastPositionInfo = toInfo.positions.at(-1);
         if (
-          lastPositionInfo !== undefined &&
-          JSON.stringify(lastPositionInfo.position) ===
+            lastPositionInfo !== undefined &&
+            JSON.stringify(lastPositionInfo.position) ===
             JSON.stringify(entity.position)
         ) {
           lastPositionInfo.timestamp = timestamp;
@@ -235,8 +236,8 @@ export default {
         }
         const lastPositionInfo = backInfo.positions.at(-1);
         if (
-          lastPositionInfo !== undefined &&
-          JSON.stringify(lastPositionInfo.position) ===
+            lastPositionInfo !== undefined &&
+            JSON.stringify(lastPositionInfo.position) ===
             JSON.stringify(entity.position)
         ) {
           lastPositionInfo.timestamp = timestamp;
@@ -291,8 +292,8 @@ export default {
     },
 
     clearScene() {
-      this.transportInfoList.splice(0, this.transportInfoList.length);
-      this.fireTruckInfoList.splice(0, this.transportInfoList.length);
+      this.transportInfoList = [];
+      this.fireTruckInfoList = [];
     },
   },
   beforeDestroy() {
@@ -318,6 +319,7 @@ export default {
   top: 0;
   width: 100%;
   height: 100%;
+
   .transport_outer_container {
     position: absolute;
     left: 0;
@@ -325,6 +327,7 @@ export default {
     width: 100%;
     height: 100%;
   }
+
   .fire_truck_outer_container {
     position: absolute;
     left: 0;

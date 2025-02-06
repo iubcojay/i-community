@@ -1,15 +1,23 @@
 <template>
+<!--  <scene-component-->
+  <!--      menuTitle="智慧社区综合治理平台"-->
+  <!--      :userMenuList="userMenuList"-->
+  <!--      position="齐鲁软件学院"-->
+  <!--      :username="userInfo.username"-->
+  <!--  ></scene-component>-->
+  <!--  -->
   <scene-component
-    menuTitle="智慧社区综合治理平台"
-    :userMenuList="userMenuList"
-    position="齐鲁软件学院"
-    :username="userInfo.username"
+      menuTitle="智慧社区综合治理平台"
+      :userMenuList="userMenuList"
+      position=""
+      :username="userInfo.username"
   ></scene-component>
 </template>
 
 <script>
 import SceneComponent from "@/views/index/frame/scene/SceneComponent";
-import { mapState } from "vuex";
+import {mapMutations, mapState} from "vuex";
+
 export default {
   name: "SchoolComponent",
   components: {
@@ -133,10 +141,12 @@ export default {
     ...mapState("userAbout", ["userInfo", "areaInfo"]),
   },
   methods: {
+    ...mapMutations("menuAbout", ["setIfBottomMenuFold"]),
     initComp() {
       this.initUserMenuList();
       this.initTilesetModel();
       this.restrictZoomDistance();
+      this.setIfBottomMenuFold(true);
     },
     initUserMenuList() {
       const power = this.userInfo.power;
@@ -164,6 +174,8 @@ export default {
         xbsjCustomShader: {},
       });
     },
+
+
   },
   mounted() {
     this.initComp();

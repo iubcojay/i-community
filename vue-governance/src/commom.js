@@ -180,7 +180,7 @@ export default {
         array.splice(0, array.length)
     },
 
-    dateFormat(fmt, date){
+    dateFormat(fmt, date) {
         let ret;
         const opt = {
             "Y+": date.getFullYear().toString(),        // 年
@@ -198,7 +198,35 @@ export default {
             }
         }
         return fmt;
-    }
+    },
 
+    timestampToFormatString(timestamp, format = 'YYYY-MM-DD HH:mm:ss') {
+        // 1. 根据时间戳创建 JS Date 对象
+        const date = new Date(timestamp);
 
+        // 2. 获取年月日、时分秒等数据
+        const year = date.getFullYear();
+        const month = date.getMonth() + 1; // 月份从 0 开始计数，需 +1
+        const day = date.getDate();
+        const hour = date.getHours();
+        const minute = date.getMinutes();
+        const second = date.getSeconds();
+
+        // 3. 定义辅助函数，补齐个位前的 0
+        const padZero = (num) => (num < 10 ? '0' + num : num);
+
+        // 4. 可根据 format 中的标记，替换为对应内容
+        //   如果你需要更多自定义占位符，可以在这里自行扩展。
+        //   下面只做了最常用的几个占位符的替换示例。
+        let result = format
+            .replace('YYYY', year)
+            .replace('MM', padZero(month))
+            .replace('DD', padZero(day))
+            .replace('HH', padZero(hour))
+            .replace('mm', padZero(minute))
+            .replace('ss', padZero(second));
+
+        return result;
+    },
 }
+

@@ -7,7 +7,7 @@
             style="width: 40px;"
         ></el-image>
         <span style="margin-left: 10px;" class="title_text">{{ title }}</span>
-        <i class="iconfont icon-address user_icon"></i>
+        <i v-if="position" class="iconfont icon-address user_icon"></i>
         <span style="color: white;">{{ position }}</span>
         <i class="iconfont icon-user user_icon"></i>
         <span style="color: white;">{{ username }}</span>
